@@ -1,8 +1,11 @@
 {
-	"mcpServers": {
-		"n8n": {
-			"type": "http",
-			"url": "https://gauharaxe.app.n8n.cloud/mcp-server/http"
-		}
-	}
+  "mcpServers": {
+    "n8n-mcp": {
+      "type": "http",
+      "url": "https://gauharaxe.app.n8n.cloud/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMDI1MjBmYy1iZGZiLTQ3MDctOWM3Mi1jZDU1YmE3ZWJmMWUiLCJpc3MiOiJuOG4iLCJqdGkiOiI0ODlhZTI4Zi02MGFlLTRhZmMtOGY3ZS00NDk1YTJiNDIyZjgiLCJpYXQiOjE3OTMxNzAwNDgsImF1ZCI6Im1jcC1zZXJ2ZXItYXBpIn0.YFN4ywuqvDRfQekWDDsdJOqVf1SmOh59tIoopTndwF0>"
+      }
+    }
+  }
 }
